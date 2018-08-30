@@ -1,0 +1,21 @@
+font_name: font-osm
+css_selector: .icon-{{glyph}}
+preprocessor_path: ""
+autowidth: true
+no_hash: true
+force: false
+debug: false
+quiet: false
+
+font_em: 1792
+font_ascent: 1536
+font_descent: 256
+
+input:
+  vectors: ./src/compile
+
+output:
+  css: ./dist/css
+  fonts: ./dist/fonts
+  preview: ./dist/
+
